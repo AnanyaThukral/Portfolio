@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import TagItem from './TagItem'
 
-const Project = ({image, title, text, color}) => {
+const Project = ({image, title, text, color, tags}) => {
     return (
         <Container style = {{background: color}}>
             <Image src = {image}/>
@@ -11,6 +12,13 @@ const Project = ({image, title, text, color}) => {
             <Text>
                 {text}
             </Text>
+            { <Tag>
+                {
+                    tags.map(tag=>(
+                        <TagItem tag = {tag}/>
+                    ))
+                }
+            </Tag> }
         </Container>
     )
 }
@@ -20,7 +28,7 @@ export default Project
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 500px;
     color: white;
     border-radius: 8px;
     padding-top: 30px;
@@ -38,6 +46,18 @@ const Image = styled.img`
     height: 300px;
 `
 
-const Title = styled.div``
+const Title = styled.div`
+    font-size: 2rem;
+    font-weight: 700;
+`
 
-const Text = styled.text``
+const Text = styled.text`
+    font-size: 1rem;
+    text-align:center;
+`
+
+const Tag = styled.div`
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+`
