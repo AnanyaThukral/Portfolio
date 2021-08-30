@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import TagItem from './TagItem'
 
-const Project = ({image, title, text, color, tags}) => {
+const Project = ({onClick, image, title, text, color, tags}) => {
     return (
-        <Container style = {{background: color}}>
+        <Container onClick = {onClick} style = {{background: color}}>
             <Image src = {image}/>
             <Title>
                 {title}

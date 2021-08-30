@@ -1,14 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import Project from './Project.js'
-
+import {
+    BrowserRouter as 
+    Link
+  } from "react-router-dom";
+  import {useHistory} from 'react-router-dom' 
 
 const Projects = () => {
+    const history = useHistory()
     return (
         <Container>
             <Heading>my projects 🖥️</Heading>
             <ProjectContainer>
-                <Project image = "./img/tracker1.png" title = "intL Tracker" text = "International Students make better immigration decisions!" color =  "radial-gradient(#1fe4f5, #3fbafe)" tags = {["UX Research", "UX/UI Design", "ReactJS", "Firebase"]}/>
+                <Project onClick = {()=> history.push('/IntLTracker')} image = "./img/tracker1.png" title = "intL Tracker" text = "International Students make better immigration decisions!" color =  "radial-gradient(#1fe4f5, #3fbafe)" tags = {["UX Research", "UX/UI Design", "ReactJS", "Firebase"]}/>
                 <Project image = "./img/Nokia.png" title = "Nokia Co-op" text = "Project Management and Data Analysis" color = "radial-gradient(#60efbc, #58d5c9)" tags = {["Agile", "Python", "PowerBI", "SQL", "MySQL Database"]}/>
                 <Project image = "./img/Slack.png" title = "Web Clones" text = "Amazon, Slack, LinkedIn Key features Integrated" color = "radial-gradient(#fbc1cc, #fa99b2)" tags = {["UI Design", "React JS", "Firebase Auth", "Firebase Database"]}/>  
                 <Project image = "./img/facedetector.png" title = "Face Detector" text = "Face Detector built using Python's OpenCV library" color = "radial-gradient(#f588d8, #c0a3e5)" tags = {["Python", "Machine Learning", "OpenCV", "Harcass Alogorithm"]}/>    
