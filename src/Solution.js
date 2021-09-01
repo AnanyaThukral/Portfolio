@@ -9,8 +9,9 @@ const Solution = () => {
                 <Brief>
                     intL Tracker is a one stop web application solution for International Students to track and check their progress towards immigration eligibility. The Application allows student to <Bold>check semester status (Full-time/ Part-time)</Bold> based on the credit or courses added/dropped through the semester. Additionally, the application gives students a platform to <Bold>connect with senior International students</Bold> in their universities to gain insight and tips on immigration and work permit requirements. Further, it also allows students to <Bold>view and register for immigration related events</Bold > happening in the university.
                 </Brief>
-
-                <Image/>
+                <Prototype>
+                    <Image src = "./img/Solution.png"/>
+                </Prototype>
             </Description>
         </Container>
     )
@@ -36,10 +37,17 @@ const Description = styled.div`
 
 const Brief = styled.div``
 
-const Image = styled.div``
+const Image = styled.img`
+`
 
 const Bold = styled.div`
     font-weight: bold;
     display: inline;
     color: #14213D;
+`
+
+const Prototype = styled.div`
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 `
