@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import Header from './Header'
 import Home from './Home'
 import About from './About'
-import Projects from './Projects'
+import IntLTracker from './IntLTracker';
+import NokiaCoop from './NokiaCoop'
 import Footer from './Footer'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
@@ -16,6 +17,12 @@ function App() {
           <Route path = "/home">
             <Home/>
           </Route>
+          <Route path = "/intLTracker">
+            <IntLTracker/>
+          </Route>
+          <Route path = "/nokiaCoop">
+            <NokiaCoop/>
+          </Route>
           <Route path = "/about">
             <About/>
           </Route>
@@ -24,7 +31,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <Footer/>
+      {/* <Footer/> */}
     </Container>
   );
 }
@@ -32,9 +39,7 @@ function App() {
 export default App;
 
 const Container = styled.div`
-  position: relative;
+  max-width:1100px;
   margin: 0 auto;
   margin-top:50px;
-  max-width:1100px;
-
 `
