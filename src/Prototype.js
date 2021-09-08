@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const Prototype = ({image, title,description}) => {
     return (
         <Container>
-             <KeyFeatures>
                 <PrototypeContainer>
                     <Image src = {image}/>
                 </PrototypeContainer>
@@ -14,15 +13,13 @@ const Prototype = ({image, title,description}) => {
                         {description}
                     </Description>
                 </TextFeature>
-            </KeyFeatures>
         </Container>
     )
 }
 
 export default Prototype
 
-const Container = styled.div``
-const KeyFeatures = styled.div`
+const Container = styled.div`
     
     span{
         font-size: 1.3rem;

@@ -9,7 +9,6 @@ const FinalDesigns = () => {
             <Text>After getting an idea of what the design flow is and main features in paper sketches that I want to integrate I designed wireframes and switched to my final web app design.</Text>
            <PrototypeContainer>
                <Prototype image = "./prototype/AddSemester.gif" title = "01. Add new Semester" description = " Allowing users to add a new semester and check their status (Full-time/ Part-time) based on the credits added."/>
-               <Prototype/>
            </PrototypeContainer>
         </Container>
     )
