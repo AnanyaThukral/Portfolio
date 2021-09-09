@@ -12,6 +12,8 @@ import Personas from './Personas'
 import Ideation from './Ideation'
 import Design from './Design'
 import FinalDesigns from './FinalDesigns'
+import FinalDesign from './FinalDesign'
+import Next from './Next'
 
 const IntLTracker = () => {
     return (
@@ -20,7 +22,7 @@ const IntLTracker = () => {
             <Text>One Stop Progress Tracking Web App for International Students in Canada to fulfill all their immigration needs</Text>
             <Description>
                 <ProjectIntro title = "role" text = "UX Designer & Front End Developer"/>
-                <ProjectIntro title = "duration" text = "Summer 2021 (3 Months)"/>
+                <ProjectIntro title = "duration" text = "Summer 2021 (4 Months)"/>
             </Description>
             <Image src = "./img/tracker.png"/>
             <Challenge/>
@@ -34,7 +36,9 @@ const IntLTracker = () => {
             <Personas/>
             <Ideation/>
             <Design/>
+            <FinalDesign/>
             <FinalDesigns/>
+            <Next/>
         </Container>
     )
 }

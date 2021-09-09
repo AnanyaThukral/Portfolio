@@ -8,7 +8,7 @@ const AffinityFinding = () => {
             <span>Discovered key insights from Affinity Mapping --</span>
             <InsightContainer>
                 <Insights text = "Students attend 1-2 sessions and then start skipping or leaving the information sessions organized by International Advisors"/>
-                <Insights text = "A trend found that study only look for eligibility requirements when they are close to graduation (Final Year)."/>
+                <Insights text = "A trend found that students only look for eligibility requirements when they are close to graduation (Final Year)."/>
                 <Insights text = "Students ONLY consider reaching to International Advisors ONLY when they are stuck."/>
                 <Insights text = "Upper Year students prefer doing their own research and applying for immigration than relying on Advisors - reason being not good experience with Advisors."/>
                 <Insights text = "Students mostly reach to program advisors before dropping courses."/>
