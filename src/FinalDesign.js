@@ -9,7 +9,7 @@ const FinalDesign = () => {
     return (
         <Container>
             <span>final designs -- </span>
-            <Text>After getting an idea of what the design flow is and main features in paper sketches that I want to integrate I designed wireframes and switched to my final web app design.</Text>
+            <Text>After getting an idea of what the design flow is and main features in paper sketches that I want to integrate I designed wireframes and switched to my <Bold>final web app design</Bold>.</Text>
             <PrototypeContainer>
                 <Dashboard/>
                 <Connect/>
@@ -27,7 +27,7 @@ const Container = styled.div`
     min-width: 1100px;
     color: #14213D;
     span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 `
 
@@ -40,4 +40,10 @@ const PrototypeContainer = styled.div`
 
 const Text = styled.div`
     margin-top: 30px;
+`
+
+const Bold = styled.div`
+    font-weight: bold;
+    display: inline;
+    color: #14213D;
 `

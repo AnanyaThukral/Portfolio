@@ -20,7 +20,7 @@ const Container = styled.div`
     min-width: 1100px;
     color: #14213D;
     span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 `
 
@@ -37,5 +37,6 @@ const ImageContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 550px;
+    margin: 20px;
 `
 

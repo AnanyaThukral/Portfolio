@@ -8,7 +8,7 @@ const Dashboard = () => {
                 <Image src="./img/Dashboard.png"></Image>
                 <TextContainer>
                     <span>A comprehensive Student Dashboard</span>
-                    <Text>Providing information on: Upcoming immigration sessions, Semester Status (Full Time/Part Time) with an ability to filter,
+                    <Text>Providing information on -  Upcoming immigration sessions,  Semester Status (Full Time/Part Time) with an ability to filter,
                     Document Expiry Date with corresponding ongoing processing Time taken by immigration office,
                     To do list and Side bar with "Connect to other international students" as one of the options.
                     </Text>
@@ -39,9 +39,10 @@ const DescriptionContainer = styled.div`
     gap: 70px;
 `
 
-const Bold = styled.text`
+const Bold = styled.p`
     font-weight: 900;
     color: #14213D;
+    display: inline;
 `
 
 const TextContainer = styled.div`
@@ -49,3 +50,4 @@ const TextContainer = styled.div`
         color: #14213D;
     }
 `
+

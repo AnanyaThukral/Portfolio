@@ -24,7 +24,7 @@ const Container = styled.div`
     /* min-width: 1100px; */
     color: #14213D;
     span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 `
 
@@ -32,8 +32,8 @@ const ProblemStatement = styled.div`
     color: rgba(0, 0, 0, 0.58);
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 1.2rem;
-    margin: 10px 0;
+    font-size: 1.4rem;
+    margin: 30px 0;
 `
 
 const Bold = styled.div`

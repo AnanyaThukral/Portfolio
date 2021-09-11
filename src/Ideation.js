@@ -5,20 +5,21 @@ export const Ideation = () => {
     return (
         <Container>
             <span>ideation -- </span>
-            <Text>User Scenarios and Story Boarding</Text>
-            <Scenario>
-                <Image src = "./img/Scenario.png"/>
-                <ScenarioContainer>
-                    <Text>Other Scenarios</Text>
-                    <Button>Scenario #1</Button>
-                    <Button>Scenario #2</Button>
-                </ScenarioContainer>
-            </Scenario>
-            <StoryBoarding>
-                <Brief>I created storyboards that depict a potential user scenario that was based on the research findings and analysis. I went through scenarios where I would see users finding an opportunity to use my solution to tackle the problem they’re in. <Bold>My storyboards involve student checking their semester status on spot. </Bold></Brief>
-                <Image src = "./img/Natasha_StoryBoard.png"/>
-                <Image src = ""/>
-            </StoryBoarding>
+            <IdeationContainer>
+                <Text>User Scenarios and Story Boarding</Text>
+                <Scenario>
+                    <Image src = "./img/Scenario.png"/>
+                    <ScenarioContainer>
+                        <Text>Other Scenarios</Text>
+                        <Button>Scenario #1</Button>
+                        <Button>Scenario #2</Button>
+                    </ScenarioContainer>
+                </Scenario>
+                <StoryBoarding>
+                    <Brief>I created storyboards that depict a potential user scenario that was based on the research findings and analysis. I went through scenarios where I would see users finding an opportunity to use my solution to tackle the problem they’re in. <Bold>My storyboards involve student checking their semester status on spot. </Bold></Brief>
+                    <Image src = "./img/Natasha_StoryBoard.png"/>
+                </StoryBoarding>
+            </IdeationContainer>
         </Container>
     )
 }
@@ -30,7 +31,7 @@ const Container = styled.div`
     min-width: 1100px;
     color: #14213D;
     span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 `
 
@@ -48,7 +49,9 @@ const StoryBoarding = styled.div`
     justify-content: center;
 `
 
-const Brief = styled.div``
+const Brief = styled.div`
+    margin-bottom: 20px;
+`
 
 const Image = styled.img``
 
@@ -77,4 +80,8 @@ const Button = styled.button`
     background: rgba(0,0,0,0.58);
     color: white;
     font-weight: 700;
+`
+
+const IdeationContainer = styled.div`
+    margin-top: 20px;
 `

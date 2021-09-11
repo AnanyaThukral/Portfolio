@@ -22,7 +22,7 @@ export default Prototype
 const Container = styled.div`
     
     span{
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         font-weight: 900;
     }
 
@@ -30,7 +30,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
 `
 
 const TextFeature = styled.div`

@@ -18,12 +18,13 @@ const Container = styled.div`
     min-width: 1100px;
     margin-top: 70px;
     span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 `
 const ProcessContainer = styled.div`
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 `
 
 const Image = styled.img`

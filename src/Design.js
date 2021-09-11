@@ -22,7 +22,7 @@ const Container = styled.div`
     min-width: 1100px;
     color: #14213D;
     span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 `
 
@@ -35,7 +35,7 @@ const Image = styled.img`
 `
 
 const ImageContainer = styled.div`
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 `

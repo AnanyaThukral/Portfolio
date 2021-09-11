@@ -24,7 +24,7 @@ const Container = styled.div`
     min-width: 1100px;
     color: #14213D;
     span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 `
 
@@ -35,6 +35,6 @@ const Text = styled.div`
 const DataContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin: 40px 0;
     border-radius: 5px;
 `
