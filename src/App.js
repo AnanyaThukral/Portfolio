@@ -6,6 +6,7 @@ import About from './About'
 import IntLTracker from './IntLTracker';
 import NokiaCoop from './NokiaCoop'
 import Footer from './Footer'
+import WebClones from './WebClones'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
@@ -20,8 +21,11 @@ function App() {
           <Route path = "/intLTracker">
             <IntLTracker/>
           </Route>
-          <Route path = "/nokiaCoop">
+          <Route path = "/NokiaCoop">
             <NokiaCoop/>
+          </Route>
+          <Route path = "/webClones">
+            <WebClones/>
           </Route>
           <Route path = "/about">
             <About/>
