@@ -35,11 +35,11 @@ const AdditionalProject = () => {
         <Text>
           <Title>Excel Automation (VBA & Python)</Title>
           Automated the excel sheets and created master sheets for daily
-          recurring tasks using VBA. Additionally, used Python Openpyxl library
+          recurring tasks using VBA. Additionally, used Python <Bold>Openpyxl library </Bold>
           for updating the excel files and making the process more efficient.
-          Further, used other Python libraries like Selenium and Pandas to
+          Further, used other Python libraries like <Bold>Selenium and Pandas to
           manipulate the data and to work with multiple directories including
-          various file extensions (zip, tar, tgz).
+          various file extensions (zip, tar, tgz)</Bold>.
         </Text>
         <ImageContainer>
           <Image src="./img/SLACM.png" />
@@ -49,18 +49,20 @@ const AdditionalProject = () => {
         </ImageContainer>
         <Text style={{ marginTop: "30px" }}>
           <Title>Working with JIRA REST API</Title>
-          This was not a project that was assigned to me but I wanted to explore
+          This was not a project that was assigned to me but I wanted to <Bold>explore
           the possibility to change how we were extracting the data from Jira
-          into MySQL Database. The way data was being extracted was through perl
+          into MySQL Database</Bold>. The way data was being extracted was through perl
           scripts. The scripts were hard to maintain as a lot of people don't
           know how to code in perl and would rather prefer coding in Python.
-          <br />I took the initiative and started exploring JIRA RestAPI and how
-          that can be used along with Python. Python already has a library that
-          eases the use of Jira REST API and has been used in production for
-          years. I made good progress over the months and successfully built a
-          connection between Nokia's JIRA through Python and was able to fetch
-          the required data. The code can not be shared currently but will be
-          used in the future developments.
+          <Text>
+            I took the initiative and started exploring JIRA REST API and how
+            that can be used along with Python. Python already has a library that
+            eases the use of Jira REST API and has been used in production for
+            years. I made good progress over the months and successfully built a
+            connection between Nokia's JIRA through Python and was able to fetch
+            the required data. The code can not be shared currently but will be
+            used in the future developments.
+          </Text>
         </Text>
       </ProjectContainer>
     </Container>
@@ -83,7 +85,9 @@ const ProjectContainer = styled.div`
   gap: 30px;
 `;
 
-const Text = styled.div``;
+const Text = styled.div`
+  margin-top: 20px;
+`;
 
 const Title = styled.div`
   color: #14213d;

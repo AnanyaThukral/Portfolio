@@ -15,7 +15,7 @@ const ProjectBackground = () => {
                         My approach to this project started with two questions - <Bold>what can be done and what all resources are available to me to make this possible?</Bold>
                     </Description>
                     <Description>
-                        After brainstorming and researching articles online I came across the term <Bold>"Hit Rate"</Bold>. The Hit Rate was right performance tool for me as it describes the success rate of an effort. Besides, this data for the tickets captured from <Bold>Jira and stored in the database</Bold> already had specific fields that I needed for hit rate calculation. Therefore, I saved time and effort to write extra lines of code and reused the already available dataset to do Hit Rate Calculation. 
+                        After brainstorming and researching articles online I came across the term <Bold>"Hit Rate"</Bold>. The Hit Rate was right performance tool for me as it describes the success rate of an effort. Besides this, the data for the tickets captured from <Bold>Jira and stored in the database</Bold> already had specific fields that I needed for hit rate calculation. Therefore, I saved time and effort to write extra lines of code and reused the already available dataset to do Hit Rate Calculation. 
                     </Description>
                         <Image src = "./img/NokiaSLA3.png" />  
                     <Description >
@@ -32,7 +32,7 @@ const ProjectBackground = () => {
             <span>my take away from this internship --</span>
             <DescriptionContainer>
                 <Description>
-                    The most important lesson that I have learnt during my time at Nokia is - no matter how big or difficult the project or problem is - if you break it into pieces and try to work with it in chunks - you can definitely solve it. I have worked with brand new tools in this internship which i have never used in school or other jobs and hence I have realized that it's not about the coding language you choose or the tool you use - it's all about problem solving and then finding the right tool and technology to solve that problem.
+                    The most important lesson that I have learnt during my time at Nokia is - <Bold>no matter how big or difficult the project or problem is - if you break it into pieces and try to work with it in chunks - you can definitely solve it.</Bold> I have worked with brand new tools in this internship which i have never used in school or other jobs and hence I have realized that it's not about the coding language you choose or the tool you use - <Bold>it's all about problem solving and then finding the right tool and technology to solve that problem.</Bold>
                 </Description>
             </DescriptionContainer>
         </Container>
