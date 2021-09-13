@@ -12,7 +12,7 @@ const WebClones = () => {
                 <ProjectIntro title = "projects" text = "Amazon, Slack, LinkedIn"/>
                 <ProjectIntro title = "tech stack" text = "JavaScript, React JS, Styled Components, Redux, Firebase"/>
                 <ProjectIntro title = "features built" text = "Backend Database usage of Amazon, Chat & Channel of Slack, Feed & Post of LinkedIn"/>
-                <ProjectIntro title = "goal" text = "I developed the above clones with React JS in order to integrate them into my application. The code is available on my GitHub."/>
+                <ProjectIntro title = "goal" text = "I developed the above clones with React JS in order to integrate them into my application. Checkout my GitHub."/>
             </ProjectIntroContainer>
             <ToolContainer>
                 <Tools>
@@ -33,7 +33,7 @@ const WebClones = () => {
            <ImageContainer>
                <Image src = "./img/Amazon.png"/>
                <Image src = "./img/Slack.png"/>
-               <Image src = "./img/Linkedin.png"/>
+               <Image src = "./img/linkedin.png"/>
            </ImageContainer>
         </Container>
     )
@@ -54,6 +54,10 @@ const ImageContainer = styled.div`
     display: flex;
     justify-content:center;
     align-items: center;
+    @media (max-width: 1300px){
+        height: 200px;
+        margin-bottom: 30px;
+    }
 `
 
 const Image = styled.img`

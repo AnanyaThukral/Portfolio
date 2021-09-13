@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Data from './Data'
 
+
 const DataAnalysis = () => {
     return (
         <Container>
@@ -10,7 +11,7 @@ const DataAnalysis = () => {
                 synthesize. The general insights extrapolated from these data points helped guide the direction for the next steps towards ideation. 
             </Text>
             <DataContainer>
-                <Data img = "./img/DataPoints.png" text = "184 Data Points"/>
+                <Data img = "./img/Data_Points.png" text = "184 DataPoints"/>
                 <Data img = "./img/data.jpg" text = "8  Clusters"/>
             </DataContainer>
         </Container>

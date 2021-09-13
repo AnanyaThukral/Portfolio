@@ -19,13 +19,13 @@ const MaskDetector = () => {
             </ProjectContainer>
                 <ImageContain>
                 <ImageContainer>
-                    <Image src = "./img/detect1.png"/>
+                    <Image src = "./img/detect.png"/>
                 </ImageContainer>
                 <ImageContainer>
-                    <Image src = "./img/detect2.png"/>
+                    <Image src = "./img/detect_two.png"/>
                 </ImageContainer>
                 <ImageContainer>
-                    <Image src = "./img/detect4.png"/>
+                    <Image src = "./img/detect_four.png"/>
                 </ImageContainer>
             </ImageContain>
             <FaceDetection/>

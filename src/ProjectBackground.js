@@ -17,12 +17,18 @@ const ProjectBackground = () => {
                     <Description>
                         After brainstorming and researching articles online I came across the term <Bold>"Hit Rate"</Bold>. The Hit Rate was right performance tool for me as it describes the success rate of an effort. Besides this, the data for the tickets captured from <Bold>Jira and stored in the database</Bold> already had specific fields that I needed for hit rate calculation. Therefore, I saved time and effort to write extra lines of code and reused the already available dataset to do Hit Rate Calculation. 
                     </Description>
-                        <Image src = "./img/NokiaSLA3.png" />  
+                        <ImageContainer>
+                            <Image src = "./img/NokiaSLA3.png" />  
+                        </ImageContainer>
                     <Description >
                         After reusing columns from <Bold>MySQL dataset</Bold>. I came up with the logic to find out the specific tickets within each severity that were resolved within the specific target days.  I made two visualizations in <Bold>PowerBI (Tabular and Graphical view).</Bold>
                     </Description>
-                    <Image style = {{marginLeft : "70px"}} src = "./img/NokiaSLA.png"/>
-                    <Image src = "./img/NokiaSLA2.png"/>
+                    <ImageContainer>
+                        <Image style = {{marginLeft : "70px"}} src = "./img/NokiaSLA.png"/>
+                    </ImageContainer>
+                    <ImageContainer>
+                        <Image src = "./img/NokiaSLA2.png"/>
+                    </ImageContainer>
                 </DescriptionContainer>
             </ProjectContainer>
             <AdditionalProjects>
@@ -50,6 +56,9 @@ const Container = styled.div`
         color:  rgba(0, 0, 0, 0.58);
         font-weight: 700;
     }
+    @media (max-width: 1300px){
+        min-width: 900px;
+    }
 `
 
 const ProjectContainer = styled.div`
@@ -61,6 +70,11 @@ const ProjectContainer = styled.div`
 const Description = styled.div``
 
 const Image = styled.img`  
+    height: 100%;
+`
+
+const ImageContainer = styled.div`
+   
 `
 
 const DescriptionContainer = styled.div`

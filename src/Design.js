@@ -9,7 +9,7 @@ const Design = () => {
             The very first screen design was done on paper based on the user flow diagram. I confirmed the user flow diagram logic and then moved onto creating a digital version. My Design and problem solving was inspired by popular applications like LinkedIn and Slack. 
             </Text>
             <ImageContainer>
-                <Image src= "./img/PaperSketch.jpg"/>
+                <Image src= "./img/Paper_Sketch.jpg"/>
             </ImageContainer>
         </Container>
     )

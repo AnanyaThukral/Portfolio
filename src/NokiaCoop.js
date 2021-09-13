@@ -53,5 +53,8 @@ const HeadingContainer = styled.div`
 
 const Text = styled.div`
     font-weight: 900;
+    @media (max-width: 1300px){
+        font-size: 0.9rem;
+    }
 `
 

@@ -31,7 +31,7 @@ const IntLTracker = () => {
             <Research/>
             <DataAnalysis/>
             <Mapping title = "empathy mapping --" text = "To get a deeper understanding of user needs I decided to build empathy maps." img = "./img/Chia_EMAP.png"/>
-            <Mapping title = "affinity mapping --" text = "After dividing the data into smaller buckets for each user in the empathy map process - I decided to build Affinity map and categorize and sort the key findings. To reach the user end goals - Divided the Data into 7 Buckets and then built 2 buckets out of them - (Pains and Gains)" img = "./img/AffinityMap.png"/>
+            <Mapping title = "affinity mapping --" text = "After dividing the data into smaller buckets for each user in the empathy map process - I decided to build Affinity map and categorize and sort the key findings. To reach the user end goals - Divided the Data into 7 Buckets and then built 2 buckets out of them - (Pains and Gains)" img = "./img/Affinity_Map.png"/>
             <AffinityFinding/>
             <Personas/>
             <Ideation/>

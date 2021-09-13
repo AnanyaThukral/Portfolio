@@ -20,5 +20,9 @@ const Container = styled.div`
 `
 const Text = styled.div`
     display: inline;
+    @media (max-width: 1300px){
+        font-size: 0.9rem;
+        text-align:center;
+    }
 `
 
