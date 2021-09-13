@@ -5,7 +5,9 @@ const Dashboard = () => {
     return (
         <Container>
             <DescriptionContainer>
-                <Image src="./img/Dashboard.png"></Image>
+                <ImageContainer>
+                    <Image src="./img/Dashboard.png"></Image>
+                </ImageContainer>
                 <TextContainer>
                     <span>A comprehensive Student Dashboard</span>
                     <Text>Providing information on -  Upcoming immigration sessions,  Semester Status (Full Time/Part Time) with an ability to filter,
@@ -20,16 +22,27 @@ const Dashboard = () => {
 
 export default Dashboard
 
-const Container = styled.div``
+const Container = styled.div`
+`
 
 const Text = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    @media (max-width: 1300px){
+        font-size: 0.9rem;
+    }
 `
 
 const Image = styled.img`
+    height: 100%;
+`
+
+const ImageContainer = styled.div`
     height: 400px;
+    @media (max-width: 1300px){
+        height: 330px;
+    }
 `
 
 const DescriptionContainer = styled.div`
@@ -39,10 +52,9 @@ const DescriptionContainer = styled.div`
     gap: 70px;
 `
 
-const Bold = styled.p`
+const Bold = styled.div`
     font-weight: 900;
     color: #14213D;
-    display: inline;
 `
 
 const TextContainer = styled.div`

@@ -5,7 +5,9 @@ const Connect = () => {
     return (
         <Container>
             <DescriptionContainer>
-                <Image src="./img/Connect.png"></Image>
+                <ImageContainer>
+                    <Image src="./img/Connect.png"></Image>
+                </ImageContainer>
                 <TextContainer>
                     <span>Connect Page</span>
                     <Text>The main feature of this "connect" page is the "Goal" section. The students can search for other students with similar goals and connect with them.</Text>
@@ -25,10 +27,20 @@ const Text = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    @media (max-width: 1300px){
+        font-size: 0.9rem;
+    }
 `
 
 const Image = styled.img`
+    height: 100%;
+`
+
+const ImageContainer = styled.div`
     height: 400px;
+    @media (max-width: 1300px){
+        height: 330px;
+    }
 `
 
 const DescriptionContainer = styled.div`

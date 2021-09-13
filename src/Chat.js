@@ -5,7 +5,9 @@ const Chat = () => {
     return (
         <Container>
             <DescriptionContainer>
-                <Image src="./img/ChatChannel.png"></Image>
+                <ImageContainer>
+                    <Image src="./img/ChatChannel.png"></Image>
+                </ImageContainer>
                 <TextContainer>
                     <span>Chat Page & Channels</span>
                     <Text>
@@ -25,11 +27,22 @@ const Text = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    @media (max-width: 1300px){
+        font-size: 0.9rem;
+    }
 `
 
 const Image = styled.img`
-    height: 400px;
+    height: 100%;
 `
+
+const ImageContainer = styled.div`
+    height: 400px;
+    @media (max-width: 1300px){
+        height: 330px;
+    }
+`
+
 
 const DescriptionContainer = styled.div`
     display: grid;
