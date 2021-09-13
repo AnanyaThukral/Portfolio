@@ -51,6 +51,9 @@ const Container = styled.div`
     span{
         font-size: 1.7rem;
     }
+    @media (max-width: 1300px){
+        min-width: 900px;
+    }
 `
 const ResearchContainer = styled.div`
     display: grid;
