@@ -28,6 +28,12 @@ const Container = styled.div`
     color: #14213D;
     span{
         font-size: 1.7rem;
+        @media (max-width: 1300px){
+        font-size: 1.4rem;
+    }
+    }
+    @media (max-width: 1300px){
+        min-width: 900px;
     }
 `
 
