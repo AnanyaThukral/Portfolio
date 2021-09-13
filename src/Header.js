@@ -18,7 +18,9 @@ const Header = () => {
                 <NavLink to = "/about">
                     <MenuItem item = "about"/>
                 </NavLink>
-                <MenuItem item = "resume"/>
+                <a href = "https://drive.google.com/file/d/1GJGAwoz_7-QVsip05dcf44C6BBRzp1qM/view" target = "_blank">
+                    <MenuItem item = "resume"/>
+                </a>
             </Menu>
         </Container>
     )
@@ -30,6 +32,14 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    a{
+        text-decoration: none;
+        color: #14213D;
+        :hover{
+            color: #2A8BF2;
+            font-weight: 900;
+        }
+    }
 `
 
 const Logo = styled.div`
