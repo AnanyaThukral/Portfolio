@@ -5,19 +5,23 @@ export const Ideation = () => {
     return (
         <Container>
             <span>ideation -- </span>
+            <Text>User Scenarios and Story Boarding :</Text>
             <IdeationContainer>
-                <Text>User Scenarios and Story Boarding</Text>
                 <Scenario>
-                    <Image src = "./img/Scenario.png"/>
-                    <ScenarioContainer>
+                    <ImageContainer>
+                        <Image src = "./img/Scenario.png"/>
+                    </ImageContainer>
+                    {/* <ScenarioContainer>
                         <Text>Other Scenarios</Text>
                         <Button>Scenario #1</Button>
                         <Button>Scenario #2</Button>
-                    </ScenarioContainer>
+                    </ScenarioContainer> */}
                 </Scenario>
                 <StoryBoarding>
                     <Brief>I created storyboards that depict a potential user scenario that was based on the research findings and analysis. I went through scenarios where I would see users finding an opportunity to use my solution to tackle the problem they’re in. <Bold>My storyboards involve student checking their semester status on spot. </Bold></Brief>
-                    <Image src = "./img/Natasha_StoryBoard.png"/>
+                    <ImageContainer>
+                        <Image src = "./img/Natasha_StoryBoard.png"/>
+                    </ImageContainer>
                 </StoryBoarding>
             </IdeationContainer>
         </Container>
@@ -32,6 +36,9 @@ const Container = styled.div`
     color: #14213D;
     span{
         font-size: 1.7rem;
+    }
+    @media (max-width: 1300px){
+        min-width: 900px;
     }
 `
 
@@ -53,8 +60,17 @@ const Brief = styled.div`
     margin-bottom: 20px;
 `
 
-const Image = styled.img``
+const Image = styled.img`
+    height: 100%;
+`
 
+const ImageContainer = styled.div`
+    @media (max-width: 1300px){
+        height: 400px;
+        display:flex;
+        justify-content: center;
+    }
+`
 
 const Bold = styled.div`
     font-weight: bold;
@@ -84,4 +100,9 @@ const Button = styled.button`
 
 const IdeationContainer = styled.div`
     margin-top: 20px;
+    @media (max-width: 1300px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
