@@ -24,6 +24,10 @@ const Container = styled.div`
     span{
         font-size: 1.7rem;
     }
+    @media (max-width: 1300px){
+        min-width: 900px;
+    }
+    
 `
 
 const Text = styled.div`
@@ -31,11 +35,15 @@ const Text = styled.div`
 `
 
 const Image = styled.img`
-    height: 600px;
+    height: 100%;
 `
 
 const ImageContainer = styled.div`
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    height: 600px;
+    @media (max-width: 1300px){
+        height: 450px;
+    }
 `
