@@ -7,8 +7,12 @@ const Personas = () => {
             <span>personas --</span>
             <Text>From the research learnings and pillars, I created personas to embody <Bold>needs, desires and frustations</Bold> surrounding the pillars that I had found.</Text>
             <PersonaContainer>
-                 <Image src = "./img/Chia_Persona.png"/>
-                 <Image src = "./img/Natasha_Persona.png"/>
+                <ImageContainer>
+                    <Image src = "./img/Chia_Persona.png"/>
+                 </ImageContainer>
+                 <ImageContainer>
+                    <Image src = "./img/Natasha_Persona.png"/>
+                 </ImageContainer>
             </PersonaContainer>
         </Container>
     )
@@ -23,6 +27,9 @@ const Container = styled.div`
     span{
         font-size: 1.7rem;
     }
+    @media (max-width: 1300px){
+        min-width: 900px;
+    }
 `
 
 const Text = styled.div`
@@ -30,6 +37,12 @@ const Text = styled.div`
 `
 
 const Image = styled.img`
+    height: 100%;
+`
+const ImageContainer = styled.div`
+     @media (max-width: 1300px){
+        height: 500px;
+    }
 `
 
 const PersonaContainer = styled.div`
@@ -37,6 +50,11 @@ const PersonaContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 35px;
+    @media (max-width: 1300px){
+        margin-top: 40px;
+        align-items: center;
+        gap: 40px;
+    }
 
 `
 
