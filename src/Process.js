@@ -6,7 +6,9 @@ const Process = () => {
         <Container>
             <span>my process -- how did I reach this solution?</span>
             <ProcessContainer>
+                <ImageContainer>
                     <Image src= "./img/Process.png"/>
+                </ImageContainer>
             </ProcessContainer>
         </Container>
     )
@@ -20,6 +22,9 @@ const Container = styled.div`
     span{
         font-size: 1.7rem;
     }
+    @media (max-width: 1300px){
+        min-width: 900px;
+    }
 `
 const ProcessContainer = styled.div`
     display: flex;
@@ -28,5 +33,12 @@ const ProcessContainer = styled.div`
 `
 
 const Image = styled.img`
-    margin-top: 30px;
+   height: 100%;
+`
+
+const ImageContainer = styled.div`
+     margin-top: 30px;
+     @media (max-width: 1300px){
+        height: 140px;
+    }
 `
