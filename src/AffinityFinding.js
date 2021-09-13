@@ -5,7 +5,7 @@ import Insights from './Insights.js'
 const AffinityFinding = () => {
     return (
         <Container>
-            <span>Discovered key insights from Affinity Mapping --</span>
+            <span>discovered key insights from Affinity Mapping --</span>
             <InsightContainer>
                 <Insights text = "Students attend 1-2 sessions and then start skipping or leaving the information sessions organized by International Advisors"/>
                 <Insights text = "A trend found that students only look for eligibility requirements when they are close to graduation (Final Year)."/>
@@ -25,6 +25,9 @@ const Container = styled.div`
     color: #14213D;
     span{
         font-size: 1.7rem;
+    }
+    @media (max-width: 1300px){
+        min-width: 900px;
     }
 `
 
