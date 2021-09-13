@@ -5,7 +5,7 @@ const Status = () => {
     return (
         <Container>
             <ImageContainer>
-                <img src = "./img/StatusList.png"/>
+                <Image src = "./img/StatusList.png"/>
             </ImageContainer>
 
             
@@ -20,4 +20,11 @@ const Container = styled.div`
 `
 const ImageContainer = styled.div`
     display: flex;
+    @media (max-width: 1300px){
+        height: 500px;
+    }
+`
+
+const Image = styled.img`
+    height: 100%;
 `

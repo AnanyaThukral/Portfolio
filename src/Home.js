@@ -77,3 +77,4 @@ const Work = styled.div`
 const University = styled.span`
     color: #2A8BF2;
 `
+

@@ -26,4 +26,12 @@ const Container = styled.div`
         box-shadow: 0 0.5em 0.5em -0.4em var(#e5ff60);
         transform: translateY(-0.25em);
     }
+    @media (max-width: 1300px){
+       font-size: 12px;
+       width: fit-content;
+       text-align: center;
+       vertical-align: center;
+       white-space:nowrap;
+       padding: 5px 16px;
+    }
 `

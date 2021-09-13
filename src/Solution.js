@@ -56,6 +56,8 @@ const ImageContainer = styled.div`
     height: 700px;
     margin-top: 20px;
     @media (max-width: 1300px){
-        height: 500px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
     }
 `

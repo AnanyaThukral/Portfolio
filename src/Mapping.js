@@ -22,6 +22,9 @@ const Container = styled.div`
     span{
         font-size: 1.7rem;
     }
+    @media (max-width: 1300px){
+        min-width: 900px;
+    }
 `
 
 const Image = styled.img`
@@ -38,5 +41,8 @@ const ImageContainer = styled.div`
     justify-content: center;
     height: 550px;
     margin: 20px;
+    @media (max-width: 1300px){
+        height: 500px;
+    }
 `
 
