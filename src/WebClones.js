@@ -64,6 +64,7 @@ const Title = styled.div`
     margin-top: 70px;
     color:  #fa99b2;
     font-size: 3rem;
+    font-weight: 700;
 `
 
 const Description = styled.div`

@@ -7,6 +7,7 @@ import IntLTracker from './IntLTracker';
 import NokiaCoop from './NokiaCoop'
 import Footer from './Footer'
 import WebClones from './WebClones'
+import MaskDetector from './MaskDetector'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
@@ -27,10 +28,13 @@ function App() {
           <Route path = "/webClones">
             <WebClones/>
           </Route>
+          <Route path = "/MaskDetector">
+            <MaskDetector/>
+          </Route>
           <Route path = "/about">
             <About/>
           </Route>
-          <Route path = "/">
+          <Route path = "/"> 
             <Home/>
           </Route>
         </Switch>
