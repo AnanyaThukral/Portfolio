@@ -24,6 +24,9 @@ const Container = styled.div`
     span{
         font-size: 1.7rem;
         font-weight: 900;
+        @media (max-width: 1300px){
+        font-size: 1.3rem;
+    }
     }
 
     height: 500px;
@@ -43,7 +46,11 @@ const TextFeature = styled.div`
     gap: 10px;
 `
 
-const Description = styled.div``
+const Description = styled.div`
+    @media (max-width: 1300px){
+        font-size: 0.9rem;
+    }
+`
 
 const Image = styled.img`
     height: 100%;
@@ -51,4 +58,7 @@ const Image = styled.img`
 
 const PrototypeContainer = styled.div`
     height: 400px;
+    @media (max-width: 1300px){
+        height: 330px;
+    }
 `
