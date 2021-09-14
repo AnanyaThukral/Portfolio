@@ -24,7 +24,7 @@ const IntLTracker = () => {
                 <ProjectIntro title = "role" text = "UX Designer & Front End Developer"/>
                 <ProjectIntro title = "duration" text = "Summer 2021 (4 Months)"/>
             </Description>
-            <Image src = "./img/tracker.png"/>
+            <Image src ="./img/tracker.png"/>
             <Challenge/>
             <Solution/>
             <Process/>
