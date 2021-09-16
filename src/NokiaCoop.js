@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ProjectIntro from './ProjectIntro'
 import ProjectBackground from './ProjectBackground'
+import LearningOutcomes from './LearningOutcomes'
 
 
 const NokiaCoop = () => {
@@ -14,7 +15,11 @@ const NokiaCoop = () => {
             <Text>
                 I had an incredible opportunity to intern at Nokia with Project Management team within Nokia Software Foundation (NSW)
             </Text>
+            {/* updates for work term term report */}
             <ProjectIntro title = "duration" text = "8 Months (Jan 2021 - Aug 2021)"/>
+            <ProjectIntro title = "tech stack" text = "Python, Excel (VBA), PowerBI, Jira, Jira REST API, Confluence, Sharepoint, Git, GitLab"/>
+            {/* updates for work term term report */}
+            <LearningOutcomes/>
             <ProjectBackground/>
         </Container>
     )

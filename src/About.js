@@ -20,7 +20,7 @@ const About = () => {
                     I'm curious and passionate about learning how the motivations and feelings of people impact their actions. I enjoy working at the crossroads of design and development and have the ability to communicate with engineers. I believe in technology that empowers, not detracts, the holistic experience. I'm learning and finding inspiration in new places everyday, and strive to grow day by day as both a <Bold>designer and developer.</Bold>
                     </Text>
                     <Text>
-                        A lot happened in 2021 🚀 <Bold>Became the Cluster Leading for Computer Science</Bold> at the university. I'm currently working as a <Bold>Web Developer</Bold> at GryphHacks. <Bold>Teaching programming</Bold> courses to First year stduents.
+                        A lot happened in 2021 🚀 <Bold>Became the Cluster Leader for Computer Science</Bold> at the university. I'm currently working as a <Bold>Web Developer</Bold> at GryphHacks. <Bold>Teaching programming</Bold> courses to First year stduents.
                         <Bold> Upgrading</Bold> this portfolio website almost everyday which I coded from scratch.  <Bold> Finished designing</Bold> my passion project. 
                     </Text>
                     <Text>

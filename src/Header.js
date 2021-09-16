@@ -18,7 +18,7 @@ const Header = () => {
                 <NavLink to = "/about">
                     <MenuItem item = "about"/>
                 </NavLink>
-                <a href = "https://drive.google.com/file/d/1GJGAwoz_7-QVsip05dcf44C6BBRzp1qM/view" target = "_blank">
+                <a href = "https://drive.google.com/file/d/1MiknmGwlkAFm00Oadgm9zupgbFGKyXzS/view?usp=sharing" target = "_blank">
                     <MenuItem item = "resume"/>
                 </a>
             </Menu>
