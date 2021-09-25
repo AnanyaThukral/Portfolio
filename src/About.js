@@ -14,7 +14,7 @@ const About = () => {
                     Nice to meet you! <Bold>I'm Ananya! 👋</Bold>
                     </Text>
                     <Text>
-                    I'm a Final Year Computer Student at University of Guelph and expected to graduate in May 2022. 👩‍💻 
+                    I'm a Final Year Computer Science Student at University of Guelph and expected to graduate in May 2022. 👩‍💻 
                     </Text>
                     <Text>
                     I'm curious and passionate about learning how the motivations and feelings of people impact their actions. I enjoy working at the crossroads of design and development and have the ability to communicate with engineers. I believe in technology that empowers, not detracts, the holistic experience. I'm learning and finding inspiration in new places everyday, and strive to grow day by day as both a <Bold>designer and developer.</Bold>
